@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1DB95159-50F3-DFA9-E206-E297929611C8}|practica01\\practica01.csproj|c:\\users\\fuent\\documents\\practica 1\\practica03\\practica01\\controllers\\specialtycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB95159-50F3-DFA9-E206-E297929611C8}|practica01\\practica01.csproj|solutionrelative:practica01\\controllers\\specialtycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB95159-50F3-DFA9-E206-E297929611C8}|practica01\\practica01.csproj|c:\\users\\fuent\\documents\\practica 1\\practica03\\practica01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB95159-50F3-DFA9-E206-E297929611C8}|practica01\\practica01.csproj|solutionrelative:practica01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB95159-50F3-DFA9-E206-E297929611C8}|practica01\\practica01.csproj|c:\\users\\fuent\\documents\\practica 1\\practica03\\practica01\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB95159-50F3-DFA9-E206-E297929611C8}|practica01\\practica01.csproj|solutionrelative:practica01\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB95159-50F3-DFA9-E206-E297929611C8}|practica01\\practica01.csproj|c:\\users\\fuent\\documents\\practica 1\\practica03\\practica01\\controllers\\staffcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB95159-50F3-DFA9-E206-E297929611C8}|practica01\\practica01.csproj|solutionrelative:practica01\\controllers\\staffcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB95159-50F3-DFA9-E206-E297929611C8}|practica01\\practica01.csproj|c:\\users\\fuent\\documents\\practica 1\\practica03\\practica01\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB95159-50F3-DFA9-E206-E297929611C8}|practica01\\practica01.csproj|solutionrelative:practica01\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1DB95159-50F3-DFA9-E206-E297929611C8}|practica01\\practica01.csproj|c:\\users\\fuent\\documents\\practica 1\\practica03\\practica01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1DB95159-50F3-DFA9-E206-E297929611C8}|practica01\\practica01.csproj|solutionrelative:practica01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -22,24 +42,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "practica01\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "practica01\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T01:18:08.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "practica01\\Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "practica01\\Controllers\\StaffController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T01:17:43.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StaffCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\Controllers\\StaffCategoryController.cs",
+              "RelativeDocumentMoniker": "practica01\\Controllers\\StaffCategoryController.cs",
+              "ToolTip": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\Controllers\\StaffCategoryController.cs",
+              "RelativeToolTip": "practica01\\Controllers\\StaffCategoryController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAmwDsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T01:17:34.792Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SpecialtyController.cs",
+              "DocumentMoniker": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\Controllers\\SpecialtyController.cs",
+              "RelativeDocumentMoniker": "practica01\\Controllers\\SpecialtyController.cs",
+              "ToolTip": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\Controllers\\SpecialtyController.cs",
+              "RelativeToolTip": "practica01\\Controllers\\SpecialtyController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwCYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T01:15:06.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "practica01\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "practica01\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T01:14:59.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\appsettings.json",
               "RelativeDocumentMoniker": "practica01\\appsettings.json",
               "ToolTip": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\appsettings.json",
               "RelativeToolTip": "practica01\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-11T02:49:43.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T02:49:43.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\Views\\StaffCategory\\Create.cshtml",
               "RelativeDocumentMoniker": "practica01\\Views\\StaffCategory\\Create.cshtml",
@@ -47,12 +128,11 @@
               "RelativeToolTip": "practica01\\Views\\StaffCategory\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-11T02:28:21.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T02:28:21.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\Views\\Staff\\Create.cshtml",
               "RelativeDocumentMoniker": "practica01\\Views\\Staff\\Create.cshtml",

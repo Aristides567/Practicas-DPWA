@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WjnjbDTyzYQ=",
+  "dgSpecHash": "3OzKPvDnb5M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\fuent\\Documents\\Practica 1\\practica02\\practica01\\practica02.csproj",
+  "projectFilePath": "C:\\Users\\fuent\\Documents\\Practica 1\\practica02\\practica01\\HospitalProyect.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fuent\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\fuent\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

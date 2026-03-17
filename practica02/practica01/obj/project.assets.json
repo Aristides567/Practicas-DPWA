@@ -3477,9 +3477,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fuent\\Documents\\Practica 1\\practica02\\practica01\\practica02.csproj",
-      "projectName": "practica02",
-      "projectPath": "C:\\Users\\fuent\\Documents\\Practica 1\\practica02\\practica01\\practica02.csproj",
+      "projectUniqueName": "C:\\Users\\fuent\\Documents\\Practica 1\\practica02\\practica01\\HospitalProyect.csproj",
+      "projectName": "HospitalProyect",
+      "projectPath": "C:\\Users\\fuent\\Documents\\Practica 1\\practica02\\practica01\\HospitalProyect.csproj",
       "packagesPath": "C:\\Users\\fuent\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\fuent\\Documents\\Practica 1\\practica02\\practica01\\obj\\",
       "projectStyle": "PackageReference",
@@ -3514,7 +3514,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -3554,7 +3554,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

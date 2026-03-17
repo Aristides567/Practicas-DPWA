@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\practica01.csproj": {}
+    "C:\\Users\\fuent\\Documents\\Practica 1\\practica02\\practica01\\HospitalProyect.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\practica01.csproj": {
+    "C:\\Users\\fuent\\Documents\\Practica 1\\practica02\\practica01\\HospitalProyect.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\practica01.csproj",
-        "projectName": "practica01",
-        "projectPath": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\practica01.csproj",
+        "projectUniqueName": "C:\\Users\\fuent\\Documents\\Practica 1\\practica02\\practica01\\HospitalProyect.csproj",
+        "projectName": "HospitalProyect",
+        "projectPath": "C:\\Users\\fuent\\Documents\\Practica 1\\practica02\\practica01\\HospitalProyect.csproj",
         "packagesPath": "C:\\Users\\fuent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fuent\\Documents\\Practica 1\\practica03\\practica01\\obj\\",
+        "outputPath": "C:\\Users\\fuent\\Documents\\Practica 1\\practica02\\practica01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

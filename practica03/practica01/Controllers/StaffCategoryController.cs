@@ -36,7 +36,7 @@ namespace practica01.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(StaffCategoryModel staffCategoryModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 _staffCategoryRepository.Add(staffCategoryModel);
                 return RedirectToAction(nameof(Index));
@@ -57,7 +57,7 @@ namespace practica01.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(StaffCategoryModel staffCategoryModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 _staffCategoryRepository.Update(staffCategoryModel);
                 return RedirectToAction(nameof(Index));

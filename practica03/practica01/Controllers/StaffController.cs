@@ -50,7 +50,7 @@ namespace practica01.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(StaffModel staffModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 _staffRepository.Add(staffModel);
                 return RedirectToAction(nameof(Index));
@@ -82,7 +82,7 @@ namespace practica01.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(StaffModel staffModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 _staffRepository.Update(staffModel);
                 return RedirectToAction(nameof(Index));

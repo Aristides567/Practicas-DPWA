@@ -36,7 +36,7 @@ namespace practica01.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(SpecialtyModel specialtyModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 _specialtyRepository.Add(specialtyModel);
                 return RedirectToAction(nameof(Index));
@@ -57,7 +57,7 @@ namespace practica01.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(SpecialtyModel specialtyModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 _specialtyRepository.Update(specialtyModel);
                 return RedirectToAction(nameof(Index));
