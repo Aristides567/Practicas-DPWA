@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using practica01.Data;
 using practica01.Repositories;
@@ -16,6 +17,17 @@ builder.Services.AddScoped<StaffCategoryRepository>();
 builder.Services.AddScoped<StaffRepository>();
 builder.Services.AddScoped<AuthRepository>();
 
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(
+        options =>
+        {
+            options.LoginPath = "/Auth/Login";
+            options.LogoutPath = "/Auth/Logout";
+            options.AccessDeniedPath = "/Auth/Login";
+            options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+        }
+    );
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -30,6 +42,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 
+app.UseAuthorization();
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\practica01",
-    "\\practica01\\Migrations"
+    "\\practica01\\Repositories",
+    "\\practica01\\Views",
+    "\\practica01\\Views\\Auth"
   ],
-  "SelectedNode": "\\practica01\\practica01.csproj",
+  "SelectedNode": "\\practica01\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
