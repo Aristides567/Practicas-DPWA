@@ -1,0 +1,156 @@
+@model practica01.ViewsModels.DashboardViewModel
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<style>
+    :root {
+        --primary: #4f46e5;
+        --secondary: #64748b;
+        --success: #10b981;
+        --danger: #ef4444;
+        --warning: #f59e0b;
+        --background: #f8fafc;
+        --card-bg: #ffffff;
+        --text-main: #1e293b;
+        --text-muted: #64748b;
+    }
+
+    .dashboard-container {
+        padding: 2rem 0;
+        background-color: var(--background);
+        min-height: 100vh;
+    }
+
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .stat-card {
+        background: var(--card-bg);
+        padding: 1.5rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        border: 1px solid #e2e8f0;
+    }
+
+    .stat-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+
+    .stat-label {
+        display: block;
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.025em;
+        margin-bottom: 0.5rem;
+    }
+
+    .stat-value {
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: var(--text-main);
+    }
+
+    .accent-total { border-top: 4px solid var(--primary); }
+    .accent-active { border-top: 4px solid var(--success); }
+    .accent-inactive { border-top: 4px solid var(--danger); }
+
+    .category-section {
+        background: var(--card-bg);
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        border: 1px solid #e2e8f0;
+    }
+
+    .section-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--text-main);
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .category-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    .category-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem 1rem;
+        background: #f1f5f9;
+        border-radius: 0.5rem;
+        font-weight: 500;
+    }
+
+    .category-badge {
+        background: var(--primary);
+        color: white;
+        padding: 0.25rem 0.75rem;
+        border-radius: 9999px;
+        font-size: 0.875rem;
+    }
+</style>
+
+<div class="dashboard-container">
+    <div class="container">
+        <header class="mb-5">
+            <h1 class="display-5 fw-bold text-dark">Dashboard Metrics</h1>
+            <p class="text-muted">Real-time overview of staff distribution and activity.</p>
+        </header>
+
+        <div class="stats-grid">
+            <div class="stat-card accent-total">
+                <span class="stat-label">Total Staff</span>
+                <div class="stat-value">@Model.totalStaff</div>
+            </div>
+            <div class="stat-card accent-active">
+                <span class="stat-label">Active Staff</span>
+                <div class="stat-value">@Model.activeStaff</div>
+            </div>
+            <div class="stat-card accent-inactive">
+                <span class="stat-label">Inactive Staff</span>
+                <div class="stat-value">@Model.inactiveStaff</div>
+            </div>
+        </div>
+
+        <div class="category-section">
+            <h2 class="section-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                Staff by Category
+            </h2>
+            
+            @if (Model.staffByCategory != null && Model.staffByCategory.Any())
+            {
+                <div class="category-list">
+                    @foreach (var entry in Model.staffByCategory)
+                    {
+                        <div class="category-item">
+                            <span>@entry.Key</span>
+                            <span class="category-badge">@entry.Value</span>
+                        </div>
+                    }
+                </div>
+            }
+            else
+            {
+                <p class="text-muted italic">No categories available.</p>
+            }
+        </div>
+    </div>
+</div>
